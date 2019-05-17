@@ -1,0 +1,20 @@
+.favorites-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.favorites-btn {
+    font-size: 16px;
+    transition: ease .3s;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+}
+
+.favorites-btn:hover {
+    color: #fcd670;
+}
+
+.favorite {
+    color: #fcd670;
+}

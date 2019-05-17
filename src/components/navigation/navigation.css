@@ -1,0 +1,42 @@
+.navigation {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background: #67809f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    position: relative;
+    transition: ease-in .2s;
+}
+
+.navigation ul a:hover {
+    color: #fcd670;
+}
+
+.navigation ul a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fcd670;
+    transform: scaleX(0);
+    transition: ease-in .2s;
+}
+
+.navigation ul .active:after {
+    transform: scaleX(1);
+}

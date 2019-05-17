@@ -1,0 +1,15 @@
+.books {
+    margin-top: 50px !important;
+    text-align: center;
+}
+
+.books-title {
+    color: #fcd670;
+    margin-bottom: 20px;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}

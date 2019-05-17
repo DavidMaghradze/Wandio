@@ -1,0 +1,38 @@
+.details-box {
+    display: flex;
+}
+
+.details-image {
+    width: 20%;
+    text-align: center;
+}
+
+.details-image img {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.details-content {
+    width: 70%;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.details-title {
+    font-size: 30px;
+    color: #fcd670;
+}
+
+.details-release {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details-release span {
+    font-size: 14px;
+}
+
+.details-release span:not(:last-child) {
+    margin-right: 10px;
+}

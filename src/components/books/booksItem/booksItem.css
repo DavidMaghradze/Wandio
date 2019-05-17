@@ -1,0 +1,46 @@
+.book {
+    text-align: left;
+    background: #67809f;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+}
+
+.book-content {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.book-title {
+    color: #fcd670;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.book-desc {
+    font-size: 14px;
+}
+
+.book-footer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.book-footer a {
+    display: inline-block;
+    background: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fcd670;
+    font-size: 14px;
+    transition: ease-in .2s;
+}
+
+.book-footer span {
+    float: left;
+    cursor: pointer;
+}
+
+.book-footer a:hover {
+    box-shadow: 0 0px 4px rgba(255,255,255,.5);
+}
